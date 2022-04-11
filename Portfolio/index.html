@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Lora:wght@400;700&family=Poppins:wght@300;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  
+    <title>Jatin Choudhary</title>
+  </head>
+  <body>
+
+    <!-- home page -->
+
+    <section class="main-section">
+      <button class="mobile-hamburger-icon" aria-controls="nav-list" aria-expanded="false" id="mobile-hamburger-icon">
+          <span class="sr-only" aria-expanded="false"></span>
+      </button>
+      <nav class="primary-navigation">
+        <img class="main-logo" src="./images/logo.png" alt="logo" />
+
+        <ul class="nav-list" data-visible="false" id="nav-list">
+          <li class="nav-list-items"><a href="#about-me">About me</a></li>
+          <li class="nav-list-items"><a href="#projects">Projects</a></li>
+          <li class="nav-list-items"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="main-area">
+        <div class="main-name">
+          <div>
+            <h1>Hi, I'm Jatin</h1>
+            <p>An aspiring Web Developer</p>
+          </div>
+          <div class="main-button"><a href="#about-me">About me</a></div>
+        </div>
+        <div class="main-socials">
+          <div>
+            <a class="main-socials-icon" href="https://github.com/RobinTheHooter" target="_blank">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#ffffff"
+              width="50"
+              height="50"
+              viewBox="0 0 24 24"
+              >
+                <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a  class="main-socials-icon" href="https://www.linkedin.com/in/jatin-chandra-9bb677222/" target="_blank">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#ffffff"
+              width="50"
+              height="50"
+              viewBox="0 0 24 24"
+              >
+                <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about me -->
+
+    <section class="sub-section" id="about-me">
+      <div class="sub-information">
+        <h2>About me</h2>
+        <p>My name is Jatin Choudhary, and I am currently studying in 2nd year, IT department of K. C. College of Thane. I am efficient in communication and harbour particular skills regarding Web development, especially in Front-end web development using Html, CSS and JS. And I am currently looking for an internship to know about the real world work culture and gain experience to put my skills to something useful.</p>
+      </div>
+    </section>
+    <section class="sub-section-projects" id="projects">
+
+      <h2>Projects</h2>
+
+      <div class="project-container">
+
+        <!-- Form Validation -->
+
+        <div class="project-cards project-cards-zoom-in">
+          <img class="project-image" src="./images/form.PNG" alt="space-project">
+          <h3>A Simple Form Validation</h3>
+          <p class="project-subtext">A project I made to test my Html and CSS skills.</p><br>
+          <br>
+          <a class="project-link" href="https://jatin-form-validation.netlify.app/" target="_blank" ref="noopener noreferrer">View here</a>
+        </div>
+
+        <!-- Space tourism -->
+
+        <div class="project-cards project-cards-zoom-in">
+          <img class="project-image" src="./images/space.PNG" alt="space-project">
+          <h3>Space Tourism Website</h3>
+          <p class="project-subtext">This project is a clone of a website in frontendmentor.io. I created it as to practice my skills.</p><br>
+          <a class="project-link" href="https://jatin-space-website.netlify.app/" target="_blank" ref="noopener noreferrer">View here</a>
+        </div>
+
+        <!-- Wordle -->
+
+        <div class="project-cards project-cards-zoom-in">
+          <img class="project-image" src="./images/wordle.PNG" alt="space-project">
+          <h3>Simple Wordle</h3>
+          <p class="project-subtext">A wordle clone. I tried to replicate a famous internet game to test my abilities of JavaScript.</p><br>
+          <a class="project-link" href="https://jatin-wordle.netlify.app/" target="_blank" ref="noopener noreferrer">View here</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- contacts section -->
+
+    <footer class="contacts" id="contacts">
+      <h2>Contact me</h2>
+      <table class="contact-details">
+        <tr class="contact-details-email">
+          <td>Email</td>
+          <td>jatinchandra232@gmail.com</td>
+        </tr>
+        <tr class="contact-details-phone">
+          <td>Phone</td>
+          <td>8446131043</td>
+        </tr>
+      </table>
+    </footer>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
