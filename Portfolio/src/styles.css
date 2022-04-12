@@ -15,8 +15,11 @@
   --margin-150: 150px;
   --margin-180: 180px;
   --margin-200: 200px;
+  --margin-300: 300px;
+  --margin-500: 500px;
 
   /* gap values */
+  --gap-20: 20px;
   --gap-30: 30px;
   --gap-40: 40px;
   --gap-50: 50px;
@@ -139,11 +142,12 @@ a {
 
 .main-socials {
   margin-bottom: var(--margin-200);
+  display: block;
+  margin-right: 50px;
 }
 
 .main-socials-icon {
-  margin: var(--margin);
-  margin-right: var(--margin-50);
+  margin-bottom: 50px;
 }
 
 /* layout for about me section */
@@ -320,15 +324,23 @@ a {
     text-align: center;
   }
 
+  .main-name h1{
+    font-size: var(--fs-50);
+  }
+
+  .main-name p{
+    font-size: var(--fs-20);
+  }
+
   .main-logo {
     margin: 100px auto 100px auto;
   }
 
   .main-socials {
     display: flex;
-    padding-bottom: 100px;
-    margin-left: 25px;
-    margin-bottom: var(--margin-200);
+    margin: 0;
+    margin-bottom: var(--margin-300);
+    gap: 20px;
   }
 
   .main-button {
@@ -339,7 +351,12 @@ a {
 
 .sub-section {
   padding-top: 100px;
-  margin: 0;
+  margin: 50px;
+  text-align: center;
+}
+
+.sub-section p{
+  font-size: var(--fs-20);
 }
 
 /* project section */
@@ -376,15 +393,15 @@ a {
   .contact-details {
     display: block;
     margin: 15px;
+    font-size: 15px;
+    gap: var(--gap-20);
   }
 
   .contact-details-email {
-    display: flex;
-    gap: var(--gap-40);
+    display: flex;   
   }
 
   .contact-details-phone {
     display: flex;
-    gap: var(--gap-30);
   }
 }
